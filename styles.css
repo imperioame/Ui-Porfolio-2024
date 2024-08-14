@@ -1,0 +1,22 @@
+:root {
+    --main-white: #EAE9E7;
+    --main-black: #171719;
+    --main-gradient: linear-gradient(180deg, var(--main-white) 0%, var(--main-white) 120vh, var(--main-black) calc(120vh + 1px), var(--main-black) 100%);
+    --main-stroke: #232323;
+}
+
+body {
+    background-image: var(--main-gradient);
+}
+
+.standar_border {
+    border: 2px solid var(--main-stroke);
+}
+
+.standard_rounded {
+    border-radius: 8px;
+}
+
+.large_rounded {
+    border-radius: 16px;
+}
